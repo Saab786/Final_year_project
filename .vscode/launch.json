@@ -1,0 +1,34 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "b_track",
+            "cwd": "b_track",
+            "request": "launch",
+            "type": "dart"
+        },
+        {
+            "name": "b_track (profile mode)",
+            "cwd": "b_track",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "profile"
+        },
+        {
+            "name": "b_track_driver",
+            "cwd": "b_track_driver",
+            "request": "launch",
+            "type": "dart"
+        },
+        {
+            "name": "b_track_driver (profile mode)",
+            "cwd": "b_track_driver",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "profile"
+        }
+    ]
+}
