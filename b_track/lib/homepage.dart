@@ -2,7 +2,6 @@
 
 import 'package:b_track/BusNoSearch.dart';
 import 'package:b_track/NavBar.dart';
-import 'package:b_track/registration.dart';
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 
@@ -40,92 +39,7 @@ class Homepage extends StatelessWidget {
           child: Column(
         children: [
           SizedBox(
-            height: 20,
-          ),
-          Row(
-            mainAxisAlignment: MainAxisAlignment.start,
-            children: [
-              Padding(
-                padding: EdgeInsets.only(left: 20),
-              ),
-              Text(
-                'Seach by Station Name:',
-                style: style,
-              ),
-            ],
-          ),
-          SizedBox(height: 10),
-          Row(
-            mainAxisAlignment: MainAxisAlignment.spaceAround,
-            crossAxisAlignment: CrossAxisAlignment.center,
-            children: [
-              SizedBox(
-                width: 150,
-                child: TextFormField(
-                  cursorColor: Colors.grey.shade800,
-                  keyboardType: TextInputType.text,
-                  decoration: InputDecoration(
-                    hintText: 'From',
-                    contentPadding: EdgeInsets.only(left: 15),
-                    border: OutlineInputBorder(
-                      borderRadius: BorderRadius.circular(15.0),
-                    ),
-                    focusedBorder: OutlineInputBorder(
-                        borderRadius: BorderRadius.circular(15),
-                        borderSide: BorderSide(color: Colors.white)),
-                    filled: true,
-                    fillColor: Colors.white,
-                  ),
-                ),
-              ),
-              SizedBox(
-                width: 150,
-                child: TextFormField(
-                  cursorColor: Colors.grey.shade800,
-                  keyboardType: TextInputType.text,
-                  decoration: InputDecoration(
-                    hintText: 'To',
-                    contentPadding: EdgeInsets.only(left: 15),
-                    border: OutlineInputBorder(
-                      borderRadius: BorderRadius.circular(15.0),
-                    ),
-                    focusedBorder: OutlineInputBorder(
-                        borderRadius: BorderRadius.circular(15),
-                        borderSide: BorderSide(color: Colors.white)),
-                    filled: true,
-                    fillColor: Colors.white,
-                  ),
-                ),
-              ),
-            ],
-          ),
-          Center(
-              child: Padding(
-            padding: EdgeInsets.only(top: 15),
-            child: ElevatedButton(
-              child: Text(
-                "Search",
-                style: GoogleFonts.rowdies(
-                  textStyle: TextStyle(fontSize: 18),
-                ),
-              ),
-              onPressed: () {},
-              style: ElevatedButton.styleFrom(
-                fixedSize: Size(120, 40),
-                primary: Color(0xff343b71),
-                elevation: 10,
-                shadowColor: Colors.black,
-                shape: RoundedRectangleBorder(
-                    borderRadius: BorderRadius.circular(15)),
-              ),
-            ),
-          )),
-          SizedBox(
-            height: 10,
-          ),
-          Text(
-            'OR',
-            style: style,
+            height: 7,
           ),
           Container(
             height: 70,
